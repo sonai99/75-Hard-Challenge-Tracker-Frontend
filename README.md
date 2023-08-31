@@ -27,4 +27,25 @@ Are you ready to embark on this challenging yet rewarding journey? Sign up now a
 ## License
 This project is licensed under the [MIT License](LICENSE).
 
-Note: The information provided in this README is based on the available knowledge base and is subject to change.
+
+To set up the local configuration for the provided project, you can follow these steps:
+
+1. Clone the repository: 
+   ```
+   git clone <repository-url>
+   ```
+
+2. Navigate to the project directory:
+   ```
+   cd <project-directory>
+   ```
+
+3. Install dependencies:
+   ```
+   npm install
+   ```
+
+4. Once the dependencies are installed, you can start the development server:
+   ```
+   npm start
+   ```
