@@ -24,9 +24,6 @@ To start the 75 Hard Challenge and use the Tracker:
 
 Are you ready to embark on this challenging yet rewarding journey? Sign up now and let the 75 Hard Challenge Tracker guide you towards personal growth and achievement.
 
-## License
-This project is licensed under the [MIT License](LICENSE).
-
 
 To set up the local configuration for the provided project, you can follow these steps:
 
@@ -49,3 +46,8 @@ To set up the local configuration for the provided project, you can follow these
    ```
    npm start
    ```
+
+**## License
+This project is licensed under the [MIT License](LICENSE).**
+
+****
