@@ -40,7 +40,7 @@
   }
   
   .submit-button:hover {
-    background-color: black;
+    background-color: gray;
     color: white;
   }
   
@@ -61,7 +61,7 @@
   }
   
   .signup-button:hover {
-    background-color: black;
+    background-color: gray;
     color: white;
   }
   

@@ -1,37 +1,42 @@
-/* TotalDaysList.css */
 .total-days-list {
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    gap: 10px;
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-  }
-  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 1px solid #000;
+  margin: 40px;
+  padding: 30px;
+  border-radius: 8px;
+
+}
+
+.day {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: #333;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.day:hover {
+  background-color: #f2f2f2;
+}
+
+.day.active {
+  background-color: #333;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
   .day {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #fff;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 10px;
-    font-size: 14px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+    width: 40px;
+    height: 40px;
+    font-size: 12px;
   }
-  
-  .day.completed {
-    background-color: green; /* You can change this to your desired color */
-    color: white; /* Text color for completed days */
-  }
-  
-  .active {
-    background-color: #d4edff;
-  }
-  
+}
